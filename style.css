@@ -123,6 +123,7 @@ main {
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 
+/* pseudo-element */
 .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
@@ -137,6 +138,10 @@ main {
 }
 .btn--hold {
   top: 46.1rem;
+}
+
+.btn--modal {
+  top: 4rem;
 }
 
 .btn:active {
